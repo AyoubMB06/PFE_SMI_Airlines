@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgimgflou" />
+
+    <LinearLayout
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BIENVENUE"
+            android:textColor="@android:color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inscrivez-vous pour explorer toutes nos fonctionnalités."
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="14dp"
+            />
+
+    <EditText
+        android:id="@+id/nomC"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:hint="Nom"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/prénomC"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:hint="Prénom"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/emailC"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:hint="Adresse E-mail"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/mdpC"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:hint="Mot de passe"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"
+        android:inputType="textWebPassword"
+
+        />
+
+        <EditText
+            android:id="@+id/mdpCC"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_border"
+            android:gravity="center"
+            android:hint="Confirmer le mot de passe"
+            android:textColor="@android:color/white"
+            android:inputType="textWebPassword"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+        android:id="@+id/telC"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:hint="Numéro de Téléphone"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"
+        android:inputType="phone"
+        android:imeOptions="actionPrevious"
+            />
+
+    <Button
+        android:id="@+id/buRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:text="S'insrire"
+        android:textAllCaps="false"
+        />
+
+        <Button
+            android:id="@+id/register_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="Vous êtes déjà inscrits?  Connectez-vous. "
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textSize="14dp"
+            android:background="?android:attr/selectableItemBackground"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

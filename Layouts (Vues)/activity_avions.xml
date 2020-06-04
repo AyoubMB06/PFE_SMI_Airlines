@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".Pilotes"
+    android:orientation="vertical"
+    android:background="@drawable/bg0"
+    android:layout_weight="400"
+    android:layout_height="700dp" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_gravity="bottom"
+
+        >
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="494dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="2dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color1"
+                android:src="@drawable/piloteicon">
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:text="Nom"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="Pays"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Type d'avion"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="494dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="2dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color3"
+                android:src="@drawable/pilote2" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Jean Schmit"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Canada"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="LX-100"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="494dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="2dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="104dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color3"
+                android:src="@drawable/pilote33" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Adema Oduji"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Nigeria"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="LX-400"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="494dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="2dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="111dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color3"
+                android:src="@drawable/pilote22" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Tunn Weber"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Italy"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="LX-700"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".Contrat1">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Confirmation de réservation"
+        android:background="@drawable/bgcontrat1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+         />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TableRow>
+            <TextView
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:text="Billet N°:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                />
+
+            <TextView
+                android:id="@+id/tck_num"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:text="Date de réservation:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                />
+
+            <TextView
+                android:id="@+id/tck_dateRes"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:text="Nom du client:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                />
+
+            <TextView
+                android:id="@+id/tck_nom"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+
+
+
+        <TableRow>
+            <TextView
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:text="Départ:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                />
+
+            <TextView
+                android:id="@+id/tck_dep"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:text="Arrivée:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                />
+
+            <TextView
+                android:id="@+id/tck_arr"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:text="Date du départ:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                />
+
+            <TextView
+                android:id="@+id/tck_dateDep"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:text="Prix:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                />
+
+            <TextView
+                android:id="@+id/tck_prix"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#f0f0f0"
+                android:textColor="@color/black"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:text="Veuillez imprimer le billet après la confirmation!"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ED1515"
+
+                android:background="#f0f0f0"
+                 />
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:id="@+id/c1"
+                android:background="#f0f0f0"
+                android:src="@drawable/impr4"
+                 />
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+</LinearLayout>

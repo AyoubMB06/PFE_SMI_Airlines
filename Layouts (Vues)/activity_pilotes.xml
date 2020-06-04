@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".Pilotes"
+    android:orientation="vertical"
+    android:background="@drawable/bg44"
+    android:layout_weight="400"
+    android:layout_height="700dp" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_gravity="bottom"
+
+        >
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="563dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="2dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color1"
+                android:src="@drawable/avionicone1">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color1"
+                android:src="@drawable/avion1">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color1"
+                android:src="@drawable/avion3">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/color1"
+                android:src="@drawable/avion4">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="563dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="2dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color3"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="N°Avion"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="LX-100"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="LX-400"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="LX-700"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="563dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="2dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color3"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="Type"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Piper LH-67"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Cesna X-500"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Cesna X-800"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="563dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="2dp"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color3"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:text="Pays"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Allemagne"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="France"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/color2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Suède"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
